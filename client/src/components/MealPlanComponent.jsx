@@ -8,7 +8,7 @@ const MealPlanComponent = ({ pcodProbability }) => {
   const generateMealPlan = async (probability) => {
     setLoading(true);
     try {
-      const apiKey = "AIzaSyAgxszMrnza8NwJhpxzoyIBjUsgnWF3lac";
+      const apiKey = "key";
       const endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
       const prompt = `
